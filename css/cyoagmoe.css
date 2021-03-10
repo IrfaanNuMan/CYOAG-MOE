@@ -1,0 +1,28 @@
+
+body {
+	background: #273469;
+	color: #ffffff
+    font-family: georgian;
+	
+	}
+ h1 { 
+    font-family: verdana;
+	font-size: 20px;
+	color: #ffffff	
+    }
+ h2 {
+	 font-family: verdana;
+	font-size: 16px
+    }
+ h3 {
+	font-family: verdana;
+	font-size: 14px
+	color: #ffffff
+	}
+ a  {
+	 color: #e4d9ff
+    }
+ 
+p { 
+   font-size: 12px;
+  }
