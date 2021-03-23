@@ -23,7 +23,7 @@
 	text-align: center;
 	padding:10px 10px;
 	}
-#body {
+/*#body {
 	height:auto;
 	width: 500px;
 	background: #046e8f;
@@ -31,10 +31,10 @@
     font-family: georgian;
 	display: flex;
 	flex-flow: row wrap;
-	float:right;
-	}
+	float:left;
+	}*/
 
-#nav {
+#navbar {
 	height:auto;
 	width:300px;
 	background: red;
@@ -44,12 +44,15 @@
 	flex-flow: column;
 	float:left;
 	}
-#footer {
+footer {
 	background: #1e2749;
 	color: #ffffff;
     font-family: georgian;
+	width:800px;
 	height:100px;
-	
+	clear: both;
+	text-align:left;
+	flex-flow: row;
 	
 	}	
  h1 { 
@@ -87,7 +90,8 @@ p {
 .header_nav li a:hover {
 	color: red;
 }
-.footer_nav li{
-	display: inline-block;
+.nav_bar: inline-block;
 	padding:10px 10px;
+	
 }
+	
