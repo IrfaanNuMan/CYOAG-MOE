@@ -1,20 +1,30 @@
 #container {
 	background:green;
-	width:800px;
+	width:auto;
 	height:auto;
-	margin-left:auto;
-	margin-right:auto;
+	/*margin-left:auto;
+	margin-right:auto;*/
 }
-
+/*header style working don't change*/
 #header{
-	height:50px;
+	height:100px;
 	background:#e4d9ff;
 	color: #ffffff;
     font-family:georgian;
 	text-align:left;
-	flex-flow: row;
-	
-    }
+	}
+.header_nav li{
+	/*works for the header nav but not footer*/
+	display: inline-block;
+	padding:10px 10px;
+}
+.header_nav li a {
+	transitions: all 0.4s ease 0s;
+}
+.header_nav li a:hover {
+	color: red;
+}	
+/*Title style*/	
 #title {
 	height: 60px;
 	background: #1e2749;
@@ -23,38 +33,62 @@
 	text-align: center;
 	padding:10px 10px;
 	}
-/*#body {
+	/*content contains immage and nav button*/
+#content {
 	height:auto;
-	width: 500px;
+	width: 60%;
 	background: #046e8f;
 	color: #ffffff;
     font-family: georgian;
 	display: flex;
 	flex-flow: row wrap;
-	float:left;
-	}*/
+	float:right;
+	}
+	
+	img {
+		margin: 100px;
+		/*width: 300px;
+		height: 300px;*/
+	}
+.buttons_nav {
+	
+}	
+	
 
 #navbar {
-	height:auto;
-	width:300px;
+	height:715px;
+	width:40%;
 	background: red;
 	color: #ffffff;
     font-family: georgian;
 	display: flex;
-	flex-flow: column;
+	/*flex-flow: column;*/
 	float:left;
+	
+		
 	}
-footer {
-	background: #1e2749;
+#buttons {
+	height:auto;
+	width:40%;
+	background: black;
 	color: #ffffff;
     font-family: georgian;
-	width:800px;
-	height:100px;
-	clear: both;
-	text-align:left;
+	display: flex;
 	flex-flow: row;
+	float:right;
 	
-	}	
+	}
+	
+	
+#footer {
+	background: #1e2749;
+	clear: both;
+	height:50px;
+	color: #ffffff;
+    font-family:georgian;
+	text-align:left;
+	}
+
  h1 { 
     font-family: verdana;
 	font-size: 20px;
@@ -77,21 +111,17 @@ p {
    font-size: 12px;
    color: #ffffff;
   }
- li,a {
+ li,a { 
 	font-family: verdana;
  }
-.header_nav li{
-	display: inline-block;
-	padding:10px 10px;
-}
-.header_nav li a {
-	transitions: all 0.4s ease 0s;
-}
-.header_nav li a:hover {
-	color: red;
-}
+
 .nav_bar: inline-block;
 	padding:10px 10px;
-	
 }
+.footer_nav li{
+	display: inline-block;
+	padding:0px;
+	/*flex-flow: row;*/
+}
+
 	
