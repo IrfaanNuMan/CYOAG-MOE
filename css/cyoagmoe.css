@@ -7,16 +7,18 @@
 }
 /*header style working don't change*/
 #header{
-	height:100px;
+	height:auto; /*100px;*/
 	background:#e4d9ff;
 	color: #ffffff;
     font-family:georgian;
 	text-align:left;
+	border-style: double;
+	border-color: red;
 	}
 .header_nav li{
 	/*works for the header nav but not footer*/
 	display: inline-block;
-	padding:10px 10px;
+	padding:20px 10px 10px 10px;
 }
 .header_nav li a {
 	transitions: all 0.4s ease 0s;
@@ -44,15 +46,26 @@
 	flex-flow: row wrap;
 	float:right;
 	}
+#about_content {
+	height:auto;
+	width: 60%;
+	background: #e4d9ff;
+	
+    font-family: georgian;
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: 20%;
+	padding-left: 20px;
+	}
 	
 	img {
 		margin: 100px;
 		/*width: 300px;
 		height: 300px;*/
 	}
-.buttons_nav {
-	
-}	
+
+
+
 	
 
 #navbar {
@@ -64,12 +77,18 @@
 	display: flex;
 	/*flex-flow: column;*/
 	float:left;
-	
-		
 	}
+.nav_bar li{
+	border-style: double;
+	border-color: black;
+	margin-top: auto;
+	margin-left: 125px;
+	
+}	
+	
 #buttons {
 	height:auto;
-	width:40%;
+	width:60%;
 	background: black;
 	color: #ffffff;
     font-family: georgian;
@@ -78,7 +97,10 @@
 	float:right;
 	
 	}
-	
+.button_nav li{
+	display : inline-block;
+	padding:10px 5px 10px 100px;
+}		
 	
 #footer {
 	background: #1e2749;
@@ -96,12 +118,14 @@
     }
  h2 {
 	 font-family: verdana;
-	font-size: 16px
+	font-size: 16px;
+	#text-align: center;
     }
  h3 {
 	font-family: verdana;
 	font-size: 14px;
-	color: #ffffff;
+	#text-align: center;
+	
 	}
  a  {
 	 color: #38aecc;
@@ -109,13 +133,14 @@
  
 p { 
    font-size: 12px;
-   color: #ffffff;
+   #color: #ffffff;
   }
  li,a { 
 	font-family: verdana;
  }
 
-.nav_bar: inline-block;
+.nav_bar {
+display : inline-block;
 	padding:10px 10px;
 }
 .footer_nav li{
@@ -123,5 +148,8 @@ p {
 	padding:0px;
 	/*flex-flow: row;*/
 }
-
+/* header and footer immage size*/
+.material-icons {
+	font-size:30px;
+}
 	
