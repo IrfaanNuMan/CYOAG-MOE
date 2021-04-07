@@ -38,15 +38,27 @@
 	/*content contains immage and nav button*/
 #content {
 	height:auto;
-	width: 60%;
+	width: 100%;
 	background: #046e8f;
 	color: #ffffff;
     font-family: georgian;
-	display: flex;
-	flex-flow: row wrap;
-	float:right;
+	#display: flex;
+	#flex-flow: row wrap;
+	#float:right;
 	}
-#about_content {
+	
+.grid-container{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	background-color: orange;
+	padding: 40px;
+		
+	}
+.item {
+	#background-color: red;
+	text-align: center;
+}	
+/*#about_content {
 	height:auto;
 	width: 60%;
 	background: #e4d9ff;	
@@ -65,11 +77,11 @@
 	flex-flow: row wrap;
 	margin-left: 0%;
 	padding-left: 0px;
-	}
+	}*/
 	img {
-		margin: 100px;
-		/*width: 300px;
-		height: 300px;*/
+		margin: 10px;
+		width: 75%;
+		height: 50%;
 	}
 
 
@@ -94,7 +106,7 @@
 	
 }	
 	
-#buttons {
+/*#buttons {
 	height:auto;
 	width:60%;
 	background: black;
@@ -108,7 +120,7 @@
 .button_nav li{
 	display : inline-block;
 	padding:10px 5px 10px 100px;
-}		
+}	*/	
 	
 #footer {
 	background: #1e2749;
