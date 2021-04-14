@@ -1,46 +1,53 @@
 #container {
 	background:#046e8f;
 	width:auto;
-	height:1000px;
+	/*height:825px;*/
 	/*margin-left:auto;
 	margin-right:auto;*/
 }
+
+dy {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
 /*header style working don't change*/
 #header{
-	height:auto;
+	height:75px;
 	background:#e4d9ff;
 	/*color: #ffffff;*/
     font-family:georgian;
 	text-align:left;
-	
+	/*padding:5px 5px 5px 5px;*/
 	/*border-style: double;
 	border-color: red;*/
 	}
 .header_nav li{
 	/*works for the header nav but not footer*/
 	display: inline-block;
-	padding:20px 10px 10px 10px;
+	padding:10px 5px 5px 5px;
 }
 .header_nav li a {
 	transitions: all 0.4s ease 0s;
-	font-size:20px;
+	font-size:12px;
 }
 .header_nav li a:hover {
 	color: red;
 }	
 /*Title style*/	
 #title {
-	height: auto;
-	background: #1e2749;
+	height: 50px;
+	background:#1e2749;
 	color: #ffffff;
     font-family: georgian;
 	text-align: center;
-	padding:5px 5px 5px 5px;
-	
+	text-a
+	/*padding:0px 5px 0px 5px;*/
+	/*margin-top:10px;
+	margin-bottom:10px*/
 	}
 	/*content contains immage and nav button*/
 #content {
-	height:auto;
+	/*height:auto;*/
 	width: 60%;
 	background: #046e8f;
 	color: #ffffff;
@@ -50,7 +57,7 @@
 	float:right;
 	}
 #about_content {
-	height:auto;
+	/*height:auto;*/
 	width: 60%;
 	background: #e4d9ff;	
     font-family: georgian;
@@ -59,7 +66,7 @@
 	margin-left: 20%;
 	padding-left: 20px;
 	}
-	#grid {
+	/*#grid {
 	height:auto;
 	width: 100%;
 	#background: #e4d9ff;	
@@ -68,24 +75,49 @@
 	flex-flow: row wrap;
 	margin-left: 0%;
 	padding-left: 0px;
-	}
+	}*/
 	img {
 		margin: 100px;
-		/*width: 300px;
-		height: 300px;*/
+		width: 300px;
+		height: 300px;
 	}
+#choice {
+	display: flex;
+	flex-flow:row;
+	/*padding:5px 10px 5px 10px;*/
+	/*font-size: 12px;*/
+	background-color:#046e8f;
+	text-decoration: none;
+	margin-left:275px;
+}
+#choice li{
+	
+	display: inline-block;
+	padding:5px 10px 5px 10px;
+	font-size: 12px;
+}
 
+.choice_select li a:hover {
+	color: red;
+	/*text-align: center; */
+	
+	}
+	
+	.choice_select li a {
+	color:#ffffff
+	/*text-align: center; */
+	
+	}
 #navbar_container {
-	height:715px/*715px*/;
+	height:auto/*715px*/;
 	width:40%;
-	background: #046e8f;
+	background:#046e8f;
 	color: #ffffff;
-   /* font-family: georgian;
+   /* font-family: georgian;*/
 	display: flex;
 	flex-flow:column;
 	text-decoration: none;
-	font-size: 16px;
-	/*flex-flow: column;*/
+	font-size: 10px;
 	float:left;
 
 	}
@@ -98,97 +130,100 @@
 	display: flex;
 	flex-flow:column;
 	text-decoration: none;
-	font-size: 16px;
+	/*font-size: 8px;*/
 	/*flex-flow: column;*/
 	/*float:left;*/
-    margin-left:200px;
-	margin-top:100px;
+    margin-left:150px;
+	margin-top:90px;
 	}	
 	
 	
 #nav_title{
 	/*background-color:blue;*/
-	margin-left:300px;
+	margin-left:200px;
+	font-size: 10px;
 }
 .nav_bar li{
 	/*border-style: double;
 	border-color: black;*/
 	margin-top: auto;
-	margin-left: 100px;
+	margin-left: 40px;
 	/*padding-left: 10px;*/
 	margin-right:250px;
 	text-decoration: none;
-	
-}	
+	font-size: 8px;
+	}	
 .nav_bar a{
 	
 	text-decoration: none;
 	color:#ffffff;
-	font-size: 20px;
+	font-size: 15px;
 	}
 .nav_bar h2{
 	
 	text-decoration: none;
 	color:#ffffff;
-	font-size: 25px;
+	font-size: 18px;
 	}	
 #buttons {
-	height:auto;
-	width:auto;
-	background: #046e8f;
+	height:60px;
+	width:100%;
+	background:#046e8f;
 	color: black;
     font-family: georgian;
 	display: flex;
 	flex-flow: row;
 	clear: both;
 	/*float:right;*/
-	/*margin-left:75px;*/
-	padding-left: 40%;
+	padding-left: 200px;
 	}
 .button_nav button{
 	display : inline-block;
 	padding:10px 10px 10px 10px;
-	margin-left: 150px;
+	margin-left: 10px;
 	border-radius:70%;
 	background-color:#e4d9ff;
 	color:black;
 }	
-	
+.button_nav button a:hover {
+	color: red;
+}	
+		
 #footer {
 	background: #1e2749;
 	clear: both;
-	height:auto;
+	height:8%;
 	color: #ffffff;
     font-family:georgian;
 	text-align:left;
 	}
 .footer_nav li{
 	display: inline-block;
-	padding:20px 10px 10px 10px;
+	padding:10px 5px 5px 5px;
 	
 	/*flex-flow: row;*/
 }
 .footer_nav li a{
 	
 	color:#ffffff; 
-	font-size: 20px;
+	font-size: 12px;
 }
 .footer_nav li a:hover {
 	color: red;
 	text-align: center;
 }
 /* header and footer immage size*/
-.material-icons i {
-	font-size:40px;
+.material-icons {
+	/*font-size:40px;*/
 }
  h1 { 
     font-family: verdana;
-	font-size: 40px;
+	font-size:25px;
 	color: #ffffff;	
     }
  h2 {
 	 font-family: verdana;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
     }
  h3 {
@@ -205,7 +240,7 @@
     }
  
 p { 
-   font-size: 12px;
+   font-size: 15px;
    #color: #ffffff;
   }
  li,a { 
