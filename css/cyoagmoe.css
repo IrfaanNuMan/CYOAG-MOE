@@ -1,12 +1,13 @@
 #container {
 	background:#046e8f;
 	width:auto;
-	height:1000px;
+	height:auto/*1000px*/;
 	/*margin-left:auto;
 	margin-right:auto;*/
 }
 /*header style working don't change*/
 #header{
+	/*height: 125px;*/
 	height:auto;
 	background:#e4d9ff;
 	/*color: #ffffff;*/
@@ -133,7 +134,7 @@
 	font-size: 25px;
 	}	
 #buttons {
-	height:auto;
+	/*height:auto;*/
 	width:auto;
 	background: #046e8f;
 	color: black;
@@ -143,7 +144,7 @@
 	clear: both;
 	/*float:right;*/
 	/*margin-left:75px;*/
-	padding-left: 40%;
+	padding-left: 45%;
 	}
 .button_nav button{
 	display : inline-block;
@@ -157,7 +158,7 @@
 #footer {
 	background: #1e2749;
 	clear: both;
-	height:auto;
+	/*height:auto;*/
 	color: #ffffff;
     font-family:georgian;
 	text-align:left;

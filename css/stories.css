@@ -1,7 +1,7 @@
 #container {
-	background:green;
+	background:#046e8f;
 	width:auto;
-	height:auto;
+	height:auto/*1000px*/;
 	/*margin-left:auto;
 	margin-right:auto;*/
 }
@@ -9,11 +9,10 @@
 #header{
 	height:auto; /*100px;*/
 	background:#e4d9ff;
-	color: #ffffff;
+	
     font-family:georgian;
 	text-align:left;
-	border-style: double;
-	border-color: red;
+	
 	}
 .header_nav li{
 	/*works for the header nav but not footer*/
@@ -22,18 +21,19 @@
 }
 .header_nav li a {
 	transitions: all 0.4s ease 0s;
+	font-size:20px;
 }
 .header_nav li a:hover {
 	color: red;
 }	
 /*Title style*/	
 #title {
-	height: 60px;
+	height:auto;
 	background: #1e2749;
 	color: #ffffff;
     font-family: georgian;
 	text-align: center;
-	padding:10px 10px;
+	padding:5px 5px 5px 5px;
 	}
 	/*content contains immage and nav button*/
 #content {
@@ -50,7 +50,7 @@
 .grid-container{
 	display:grid;
 	grid-template-columns: auto auto auto;
-	background-color: orange;
+	background-color: #046e8f;
 	padding: 40px;
 		
 	}
@@ -91,18 +91,20 @@
 #navbar {
 	height:715px;
 	width:40%;
-	background: red;
+	background: #046e8f;
 	color: #ffffff;
     font-family: georgian;
 	display: flex;
 	/*flex-flow: column;*/
 	float:left;
 	}
+ 
 .nav_bar li{
 	border-style: double;
 	border-color: black;
 	margin-top: auto;
 	margin-left: 125px;
+						
 	
 }	
 	
@@ -125,20 +127,38 @@
 #footer {
 	background: #1e2749;
 	clear: both;
-	height:50px;
+	/*height:50px;*/
 	color: #ffffff;
     font-family:georgian;
 	text-align:left;
 	}
-
+.footer_nav li{
+	display: inline-block;
+	padding:20px 20px 20px 20px;
+	
+	/*flex-flow: row;*/
+}
+.footer_nav li a{
+	
+	color:#ffffff; 
+	font-size: 18px;
+}
+.footer_nav li a:hover {
+	color: red;
+	text-align: center;
+}
+/* header and footer immage size*/
+.material-icons i {
+	font-size:40px;
+}
  h1 { 
     font-family: verdana;
-	font-size: 20px;
+	font-size: 40px;
 	color: #ffffff;	
     }
  h2 {
 	 font-family: verdana;
-	font-size: 16px;
+	font-size: 20px;
 	text-align: center;
     }
  h3 {
@@ -148,7 +168,12 @@
 	
 	}
  a  {
-	 color: #38aecc;
+	 
+	 color: #ffffff;
+	 font-size: 16px;
+	 font-weight: bold;
+	 text-decoration: none;
+	 
     }
  
 p { 
@@ -166,10 +191,14 @@ display : inline-block;
 .footer_nav li{
 	display: inline-block;
 	padding:0px;
+	color:#ffffff;
 	/*flex-flow: row;*/
 }
 /* header and footer immage size*/
 .material-icons {
 	font-size:30px;
 }
-	
+.item a:hover {
+	color: red;
+	text-decoration:none;
+}	
