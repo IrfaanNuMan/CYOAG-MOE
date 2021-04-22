@@ -32,6 +32,30 @@ dy {
 }
 .header_nav li a:hover {
 	color: red;
+}
+
+.search1 {
+	height: 20px;
+	margin-left: 700px;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+	outline: none;*/
+	
+	
+}
+.search-btn	{
+	height: 30px;
+	width: 100px;
+	background: #046e8f;
+	border: none;
+	color: #ffffff;
+	border-radius: 25px;
+	outline: none;
+}
+.search-btn:hover {
+	background: #1e2749;
+	cursor: pointer;
 }	
 /*Title style*/	
 #title {
@@ -175,7 +199,7 @@ dy {
 	flex-flow: row;
 	clear: both;
 	/*float:right;*/
-	padding-left: 200px;
+	padding-left: 250px;
 	}
 .button_nav button{
 	display : inline-block;

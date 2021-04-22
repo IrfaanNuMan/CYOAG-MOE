@@ -1,12 +1,11 @@
- var bleep= new Audio();
-	bleep.src= "CYOAG-MOE/audio/click.mp3";
-	
-	
-
-function helloFunction() {
-    alert('Hello Napier');
- }
- 
- 
  var Click = new Audio();
-Click.src ="audio/Click.mp3";
+Click.src ="Click.mp3";
+
+
+function goBack() {
+  window.history.back();
+  
+/* let btnBack = document.querySelector('button');
+ btnBack.addEventListener('click', () => {
+	 window.history.back();
+ });*/
