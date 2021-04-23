@@ -1,3 +1,11 @@
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Font+3d">
+
+*{
+	margin:0;
+	padding:0;
+}
+
 #container {
 	background:#046e8f;
 	width:auto;
@@ -31,7 +39,7 @@
 }
 
 .search1 {
-	height: 50px;
+	height: 30px;
 	margin-left: 1050px;
 	padding: 10px;
 	border: none;
@@ -59,10 +67,22 @@
 	height: auto;
 	background: #1e2749;
 	color: #ffffff;
-    font-family: georgian;
+    font-family: 'Londrina Outline', cursive;
 	text-align: center;
 	padding:5px 5px 5px 5px;
 	
+	}
+	#title h1{
+		animation: textanimation 1.5s ease-in-out;
+		
+	}
+	@keyframes textanimation{
+		0%{
+		letter-spacing:40px;
+	}
+		100%{
+			letter-spacing: 10px;
+		}
 	}
 	/*content contains immage and nav button*/
 #content {
@@ -157,7 +177,11 @@
 	text-decoration: none;
 	color:#ffffff;
 	font-size: 25px;
-	}	
+	}
+.nav_bar li a:hover{
+	color: red;
+}
+	
 #buttons {
 	/*height:auto;*/
 	width:auto;
@@ -282,5 +306,14 @@ p {
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+
+span{
+	opacity:0;
+	transition: all 0.4s ease;
+}
+
+span.fade{
+	opacity:1;
+}
 
 	
