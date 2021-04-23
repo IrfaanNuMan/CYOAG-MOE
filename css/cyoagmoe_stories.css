@@ -6,12 +6,12 @@
 #container {
 	background:#046e8f;
 	width:auto;
-	/*height:825px;*/
+	height:auto;
 	/*margin-left:auto;
 	margin-right:auto;*/
 }
 
-dy {    
+body {    
     margin: 0 !important;
     padding: 0 !important;
 }
@@ -98,7 +98,7 @@ dy {
 	float:right;
 	}
 #about_content {
-	/*height:auto;*/
+	height:500px;
 	width: 60%;
 	background: #e4d9ff;	
     font-family: georgian;
@@ -334,6 +334,8 @@ p {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
 
 
 	

@@ -1,5 +1,4 @@
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Font+3d">
+
 
 *{
 	margin:0;
@@ -13,14 +12,14 @@
 	/*margin-left:auto;
 	margin-right:auto;*/
 }
-dy {    
+body {    
     margin: 0 !important;
     padding: 0 !important;
 }					 
 /*header style working don't change*/
 #header{
 	/*height: 125px;*/
-	height:auto;
+	height:100px;
 	background:#e4d9ff;
 	/*color: #ffffff;*/
     font-family:georgian;
@@ -68,13 +67,14 @@ dy {
 }*/
 /*Title style*/	
 #title {
-	height: auto;
+	height: 70px;
 	background: #1e2749;
 	color: #ffffff;
     font-family: 'Londrina Outline', cursive;
 	text-align: center;
 	padding:5px 5px 5px 5px;
 	
+	/*Animation for title text*/				 
 	}
 	#title h1{
 		animation: textanimation 1.5s ease-in-out;
@@ -90,7 +90,7 @@ dy {
 	}
 	/*content contains immage and nav button*/
 #content {
-	height:auto;
+	/*height:auto;*/
 	width: 60%;
 	background: #046e8f;
 	color: #ffffff;
@@ -100,7 +100,7 @@ dy {
 	float:right;
 	}
 #about_content {
-	height:auto;
+	/*height:auto;*/
 	width: 60%;
 	background: #e4d9ff;	
     font-family: georgian;
@@ -124,7 +124,6 @@ dy {
 		/*width: 300px;
 		height: 300px;*/
 	}
-
 #navbar_container {
 	height:715px/*715px*/;
 	width:40%;
