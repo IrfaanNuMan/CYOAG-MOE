@@ -205,7 +205,10 @@ dy {
 	text-decoration: none;
 	color:#ffffff;
 	font-size: 18px;
-	}	
+  }	
+ .nav_bar li a:hover{
+	color: red;
+}
 #buttons {
 	height:60px;
 	width:100%;

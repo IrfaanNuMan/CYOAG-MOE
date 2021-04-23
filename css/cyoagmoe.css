@@ -9,10 +9,14 @@
 #container {
 	background:#046e8f;
 	width:auto;
-	height:auto/*1000px*/;
+	height:auto;
 	/*margin-left:auto;
 	margin-right:auto;*/
 }
+dy {    
+    margin: 0 !important;
+    padding: 0 !important;
+}					 
 /*header style working don't change*/
 #header{
 	/*height: 125px;*/
